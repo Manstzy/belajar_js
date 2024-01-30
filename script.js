@@ -27,20 +27,20 @@ let isActice = false; // true
 
 // Tipe non primitif
 // Object
-let user = {
-  // key : //value
-  nama: "messi",
-  jenis_kelamin: "laki-laki",
-  usia: 20,
-};
+// let user = {
+//   // key : //value
+//   nama: "messi",
+//   jenis_kelamin: "laki-laki",
+//   usia: 20,
+// };
 
 // array
-let buah = ["nanas", "apel", "melon"];
-buah[0] = "anggur" 
-console.log(buah)
-let num = [6, 10, 8];
+// let buah = ["nanas", "apel", "melon"];
+// buah[0] = "anggur" 
+// console.log(buah)
+// let num = [6, 10, 8];
 
-console.log(`${nama} ${usia}`)
+// console.log(`${nama} ${usia}`)
 
 
 // Operator
@@ -67,16 +67,30 @@ console.log(`${nama} ${usia}`)
 //     document.write("Anda salah")
 // }
 
-let titleId = document.getElementById("title")
-let menu = document.getElementsByClassName("menu")
-let tagMakanan = document.getElementsByTagName("li")
-let title = document.querySelector("#title")
-title.innerHTML = "Padepokan"
+// let titleId = document.getElementById("title")
+// let menu = document.getElementsByClassName("menu")
+// let tagMakanan = document.getElementsByTagName("li")
+// let title = document.querySelector("#title")
+// title.innerHTML = "Padepokan"
 
-console.log(titleId)
-console.log(menu)
-console.log(tagMakanan)
+// console.log(titleId)
+// console.log(menu)
+// console.log(tagMakanan)
 
 
-menu[0].style.color = "red"
+// menu[0].style.color = "red"
+
+// 
+
+// let dataString = "2022-02-01 17:43"
+
+// const dataMonth = ['Januari', 'Februari', 'Maret', 'April']
+// const dataHari = ['Minggu', 'Senin', 'Selasa', 'Rabu']
+
+let isSiang = true
+
+isSiang ? alert('Sekarang siang') : alert ('sekarang malam')
+
+
+
 
